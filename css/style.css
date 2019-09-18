@@ -101,7 +101,7 @@ p.print {
 
 #recipe {
   color: #767676;
-  font-size: 15.5px;
+  font-size: 15.3px;
   line-height: 1.7;
   padding: 20px 0;
   text-indent: 25px;
@@ -145,4 +145,42 @@ input {
   float: left;
   width: 300px;
   margin-left: 180px;
+}
+
+section.author {
+  float: left;
+  width: 75%;
+}
+
+img.author {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 65px;
+}
+
+h2.author {
+  font-size: 19px;
+  color: #5F5F5F;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+p.author {
+  font-size: 15px;
+  color: #767676;
+  line-height: 1.5;
+}
+
+.share-button {
+  float: right;
+
+}
+
+#submit {
+  background-color: #C0715A;
+  color: #E5E5E3;
+  font-family: "Abel", sans-serif;
+  font-size: 18.5px;
+  padding: 10px 30px;
 }
