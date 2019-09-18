@@ -189,9 +189,9 @@ p.author {
 section.foot-logo {
   width: 100%;
   float: left;
+  margin-bottom: 30px;
 }
 hr.left {
-  /* float: left; */
   width: 47.75%;
   border: .4px solid  #E3E4E4;
   display: inline-block;
@@ -200,10 +200,6 @@ hr.left {
 
 div.foot-logo {
   display: inline-block;
-  /* float: left; */
-  /* width: 10%;
-  margin: auto; */
-  /* margin-top: 50px; */
 }
 img.foot-logo {
   width: 28px;
@@ -211,9 +207,21 @@ img.foot-logo {
 }
 
 hr.right {
-  /* float: right; */
   width: 47.75%;
   border: .4px solid  #E3E4E4;
   display: inline-block;
   margin: 12px 0;
+}
+
+.copyright p {
+  color: #989898;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 8px;
+  clear: both;
+}
+
+.copyright {
+  margin: 60px;
 }
