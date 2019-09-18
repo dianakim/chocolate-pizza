@@ -54,13 +54,42 @@ nav {
   font-family: "Oswald", sans-serif;
   font-size: 38px;
   margin-top: 28px;
+  width: 100%;
+}
+
+section.posted-print {
+  width: 100%;
+  margin: 8px 0 30px 0;
+  line-height: 16px;
+}
+
+div.posted {
+  display: inline-block;
 }
 
 #posted-info {
   font-family: "Abel", sans-serif;
   font-size: 13.5px;
   color: #989898;
-  margin: 8px 0 30px 0;
+  display: inline-block;
+}
+
+div.print {
+  float: right;
+  line-height: 16px;
+}
+
+img.print {
+  float: right;
+  padding-top: 4px;
+}
+
+p.print {
+  font-family: "Abel", sans-serif;
+  font-size: 13.5px;
+  color: #989898;
+  float: right;
+  padding-top: 2px;
 }
 
 #dish-picture {
