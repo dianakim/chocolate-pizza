@@ -1,12 +1,227 @@
-.left-side {
+@import url('https://fonts.googleapis.com/css?family=Abel|Noto+Serif|Oswald:700|Patrick+Hand&display=swap');
+
+body {
+  padding: 20px 160px;
+  font-family: "Noto Serif", serif;
+}
+
+nav {
+  padding-top: 10px;
+}
+
+#logo-name-slogan {
+  float: left;
+  width: 250px;
+}
+
+#company-logo {
+  width: 40px;
+  margin-right: 9px;
   float: left;
 }
 
-#social-links img{
-  display: inline-block;
-  /* float: right; */
+#company-name {
+  float: left;
+  clear: right;
 }
 
-.social {
+#company-slogan {
+  font-family: "Abel", sans-serif;
+  font-size: 12px;
+  color: #3D3D3D;
+  float: left;
+}
+
+#social-links {
   float: right;
+}
+
+.nav-div img {
+  float: left; /* removes the automatic space between images */
+  margin: 3px 1px 0 1px;
+}
+
+.nav-div img:nth-child(7) {
+  padding-left: 6px;
+}
+
+.line {
+  width: 100%;
+  margin: 25px 0 20px 0;
+}
+
+#recipe-name {
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  margin-top: 28px;
+  width: 100%;
+}
+
+section.posted-print {
+  width: 100%;
+  margin: 8px 0 30px 0;
+  line-height: 16px;
+}
+
+div.posted {
+  display: inline-block;
+}
+
+#posted-info {
+  font-family: "Abel", sans-serif;
+  font-size: 13.5px;
+  color: #989898;
+  display: inline-block;
+}
+
+div.print {
+  float: right;
+  line-height: 16px;
+}
+
+img.print {
+  float: right;
+  padding-top: 4px;
+  padding-right: 3px;
+}
+
+p.print {
+  font-family: "Abel", sans-serif;
+  font-size: 13.5px;
+  color: #989898;
+  float: right;
+  padding-top: 2px;
+}
+
+#dish-picture {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+}
+
+#recipe {
+  color: #767676;
+  font-size: 15.3px;
+  line-height: 1.7;
+  padding: 20px 0;
+  text-indent: 25px;
+}
+
+#ingredients {
+  background-image: url("../img/list-bg.png");
+  height: 300px;
+   background-repeat: no-repeat;
+}
+
+label {
+  display: block;
+  margin-left: 7px;
+}
+
+input {
+  float: left;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.bought {
+  text-decoration: line-through;
+}
+
+.ingredients-list {
+  font-family: "Patrick Hand", cursive;
+  color: #767676;
+  line-height: 1.45;
+  padding-top: 37px;
+  font-size: 22px;
+}
+
+#list-left {
+  float: left;
+  padding-left: 80px;
+}
+
+#list-right {
+  float: left;
+  width: 300px;
+  margin-left: 180px;
+}
+
+section.author {
+  float: left;
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+img.author {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 65px;
+}
+
+h2.author {
+  font-size: 19px;
+  color: #5F5F5F;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+p.author {
+  font-size: 15px;
+  color: #767676;
+  line-height: 1.5;
+}
+
+.share-button {
+  float: right;
+
+}
+
+#submit {
+  background-color: #C0715A;
+  color: #E5E5E3;
+  font-family: "Abel", sans-serif;
+  font-size: 18.5px;
+  padding: 10px 30px;
+}
+
+section.foot-logo {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+hr.left {
+  width: 47.75%;
+  border: .4px solid  #E3E4E4;
+  display: inline-block;
+  margin: 12px 0;
+}
+
+div.foot-logo {
+  display: inline-block;
+}
+img.foot-logo {
+  width: 28px;
+  padding: 0 auto;
+}
+
+hr.right {
+  width: 47.75%;
+  border: .4px solid  #E3E4E4;
+  display: inline-block;
+  margin: 12px 0;
+}
+
+.copyright p {
+  color: #989898;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 8px;
+  clear: both;
+}
+
+.copyright {
+  margin: 60px;
 }
