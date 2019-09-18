@@ -82,6 +82,7 @@ div.print {
 img.print {
   float: right;
   padding-top: 4px;
+  padding-right: 3px;
 }
 
 p.print {
