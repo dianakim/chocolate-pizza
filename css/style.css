@@ -1,12 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Noto+Serif|Oswald:700|Patrick+Hand&display=swap');
+
+body {
+  padding: 20px 100px;
+  font-family: "Noto Serif", serif;
+}
+
 .left-side {
   float: left;
 }
 
-#social-links img{
-  display: inline-block;
-  /* float: right; */
+#social-links {
+  /* display: inline-block; */
+  float: right;
 }
 
-.social {
-  float: right;
+#recipe-name {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+}
+
+#dish-picture {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#recipe {
+  color: #767676;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 20px 0;
+  text-indent: 25px;
+}
+
+#ingredients {
+  background-image: url("../img/list-bg.png");
+  height: 300px;
+   background-repeat: no-repeat;
+}
+
+label {
+  display: block;
+  margin-left: 7px;
+}
+
+input {
+  float: left;
+  margin-left: -20px;
+  /* margin-right: 7px; */
+  margin-top: 10px;
+}
+
+.bought {
+  text-decoration: line-through;
+}
+
+.ingredients-list {
+  font-family: "Patrick Hand", cursive;
+  color: #767676;
+  line-height: 1.55;
+  padding-top: 37px;
+  font-size: 20px;
+}
+
+#list-left {
+  float: left;
+  padding-left: 60px;
+}
+
+#list-right {
+  float: left;
+  width: 300px;
+  margin-left: 200px;
 }
