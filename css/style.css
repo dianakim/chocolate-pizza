@@ -1,12 +1,11 @@
-.left-side {
-  float: left;
+
+
+#company-slogan {
+margin-top: 0px;
+margin-left: 40px;
 }
 
-#social-links img{
-  display: inline-block;
-  /* float: right; */
-}
-
-.social {
+#social-links {
   float: right;
+  display: block;
 }
